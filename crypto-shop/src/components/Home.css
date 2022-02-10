@@ -1,0 +1,41 @@
+.container{
+
+    display: 'flex' !important;
+    justify-content: 'center' !important;
+    max-width: 100% !important;
+    
+    
+}
+
+.nfts{
+    
+}
+
+.nft-card{
+   
+    border-radius: 25px !important;
+    filter: drop-shadow(0px 4px 2px rgba(0, 0, 0, 0.15));
+}
+
+.nft-img{
+    border-radius: 25px !important;
+}
+
+.nft-price{
+    color: #04BFAD !important;
+}
+
+.card-btn-primary{
+    background-color: #F23E2E !important;
+    border-radius: 20px !important;
+    border-width: 0px !important;
+}
+
+.card-btn-secondary{
+    border-radius: 20px !important;
+    border-width: 0px !important;
+}
+
+.nft-card:hover{
+    top: -10px;
+}

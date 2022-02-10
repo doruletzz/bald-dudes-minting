@@ -18,7 +18,7 @@ contract BaldDude is ERC721, ERC721URIStorage, Ownable {
 
 
     function _baseURI() internal pure override returns (string memory) {
-        return "ipfs://";
+        return "https://gateway.pinata.cloud/ipfs/";
     }
 
     function safeMint(address to, string memory uri) public onlyOwner {
@@ -45,7 +45,7 @@ contract BaldDude is ERC721, ERC721URIStorage, Ownable {
 
     function payToMint(address recipient, string memory metadataURI) public payable returns (uint256) {
         require(existingURIs[metadataURI] != 1, 'NFT already minted');
-        require (msg.value >= 0.05 ether, 'Need to pay more');
+        require (msg.value >= 0.03 ether, 'Need to pay more');
 
         uint256 newItemId = _tokenIdCounter.current();
         _tokenIdCounter.increment();

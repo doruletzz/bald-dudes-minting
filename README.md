@@ -1,5 +1,13 @@
-# NFT Minting
+# NFT Minting :bald_man:
 
-![Bald Dude](https://gateway.pinata.cloud/ipfs/Qmc9PcYtVMXDwASb1BhvhMRy8NPbFEF4yU6a6HbNAmSusf)
+<img src="https://svgshare.com/i/e7c.svg" alt="Bald Dude" width="200" height="200" ><img/>
+### Bald Dude #0
 
-A simple web3.0 App that mints Bald Dudes
+
+
+___
+
+A simple web3.0 React App that mints Bald Dudes using Hardhat, Openzeppelin and Python to generate the Image and Metadata of the nft
+
+
+> Feel free to fork me 

@@ -1,4 +1,4 @@
-# NFT Minting :bald_man:
+# Bald Dudes :bald_man:
 
 <img src="https://svgshare.com/i/e7c.svg" alt="Bald Dude" width="200" height="200" ><img/>
 ### Bald Dude #0
